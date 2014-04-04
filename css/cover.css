@@ -1,0 +1,36 @@
+/*###############################################
+--------        COVER               -------------
+###############################################*/
+
+#cover-large{
+	height: 220px;
+	background-position:top center;
+	background-size: cover;
+}
+
+#titre-cover{
+	font-size: 46px;
+	padding-top: 20px;
+	text-shadow:0px 2px 2px #333;
+}
+
+#soustitre-cover{
+	font-size: 26px;
+	text-shadow:0px 1px 1px #333;
+	line-height: 14px;
+}
+
+#soustitre-cover a{
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+/*###############################################
+--------           COVER-BAS        -------------
+###############################################*/
+
+#cover-bas-large{
+	height: 200px;
+	background-position:top center;
+	background-size: cover;
+}

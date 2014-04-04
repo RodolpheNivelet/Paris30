@@ -1,0 +1,94 @@
+/*###############################################
+--------       LEAGUE OF LEGEND     -------------
+###############################################*/
+
+.league-of-legend .titre-content .titre-content-color,.league-of-legend #match-sheet .team-score,.league-of-legend #match-sheet #match-info span.colored{
+	color: #2161AA;
+}
+
+.league-of-legend .bet-button.clickable{
+	background: #2167b6; /* Old browsers */
+	background: -moz-linear-gradient(top,  #2167b6 0%, #1f4672 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2167b6), color-stop(100%,#1f4672)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #2167b6 0%,#1f4672 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #2167b6 0%,#1f4672 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #2167b6 0%,#1f4672 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #2167b6 0%,#1f4672 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2167b6', endColorstr='#1f4672',GradientType=0 ); /* IE6-9 */
+	border: 1px solid #2167b6;
+}
+
+.league-of-legend .bet-button.clickable:hover{
+	background: #287cd2; /* Old browsers */
+	background: -moz-linear-gradient(top,  #287cd2 0%, #25558a 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#287cd2), color-stop(100%,#25558a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #287cd2 0%,#25558a 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #287cd2 0%,#25558a 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #287cd2 0%,#25558a 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #287cd2 0%,#25558a 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#287cd2', endColorstr='#25558a',GradientType=0 ); /* IE6-9 */
+	border: 1px solid #287cd2;
+}
+
+.league-of-legend .past-match-cartouche .team-left.team-won{background-image: url(../img/medium/background-win-left-leagueoflegend.png);}
+.league-of-legend .past-match-cartouche .team-right.team-won{background-image: url(../img/medium/background-win-right-leagueoflegend.png);}
+
+
+.league-of-legend #cover-large{
+	background-image:url(../img/cover-leagueoflegend.jpg);
+}
+
+.league-of-legend #cover-bas-large{
+	background-image: url(../img/cover-bas-leagueoflegend.jpg);
+}
+
+.league-of-legend #match-sheet #team-left.win,.league-of-legend #match-sheet #team-right.win{
+	background: url(../img/matchsheet/background-win-matchsheet-leagueoflegend.png) repeat-x;
+}
+
+/*###############################################
+--------            DOTA 2          -------------
+###############################################*/
+
+.dota2 .titre-content .titre-content-color, .dota2 #match-sheet .team-score,.dota2 #match-sheet #match-info span.colored{
+	color: #af3927;
+}
+
+.dota2 .bet-button.clickable{
+	background: #b03a28; /* Old browsers */
+	background: -moz-linear-gradient(top,  #b03a28 0%, #951f0d 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b03a28), color-stop(100%,#951f0d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #b03a28 0%,#951f0d 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #b03a28 0%,#951f0d 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #b03a28 0%,#951f0d 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #b03a28 0%,#951f0d 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b03a28', endColorstr='#951f0d',GradientType=0 ); /* IE6-9 */
+	border: 1px solid #b03a28;
+}
+
+.dota2 .bet-button.clickable:hover{
+	background: #cd4630; /* Old browsers */
+	background: -moz-linear-gradient(top,  #cd4630 0%, #b0240e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cd4630), color-stop(100%,#b0240e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #cd4630 0%,#b0240e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #cd4630 0%,#b0240e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #cd4630 0%,#b0240e 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #cd4630 0%,#b0240e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cd4630', endColorstr='#b0240e',GradientType=0 ); /* IE6-9 */
+	border: 1px solid #cd4630;
+}
+
+.dota2 .past-match-cartouche .team-left.team-won{background-image: url(../img/medium/background-win-left-dota2.png);}
+.dota2 .past-match-cartouche .team-right.team-won{background-image: url(../img/medium/background-win-right-dota2.png);}
+
+.dota2 #cover-large{
+	background-image:url(../img/cover-dota2.jpg);
+}
+
+.dota2 #cover-bas-large{
+	background-image: url(../img/cover-bas-dota2.jpg);
+}
+
+.dota2 #match-sheet #team-left.win,.dota2 #match-sheet #team-right.win{
+	background: url(../img/matchsheet/background-win-matchsheet-dota2.png) repeat-x;
+}

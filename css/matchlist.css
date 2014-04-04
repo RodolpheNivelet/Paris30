@@ -1,0 +1,251 @@
+/*###############################################
+--------          CONTENT           -------------
+###############################################*/
+
+.match-cartouche-general{
+	border: 1px solid #5d5d5d;
+	margin-bottom: 20px;
+}
+
+.match-cartouche-general .team-container{
+	background:#121212;
+	position: relative;
+}
+
+.match-cartouche-general .team-left{
+	border-right: 1px solid #5d5d5d;
+}
+
+.match-cartouche-general .vs-middle{
+	position: absolute;
+}
+
+.match-cartouche-general .team-container>div>div{
+	position: absolute;
+}
+
+.match-cartouche-general .team-container>div>div>img,.match-cartouche-general .team-container>div>div>div{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.match-cartouche-general .team-left .team-nameandbutton{text-align: left;}
+.match-cartouche-general .team-right .team-nameandbutton{text-align: right;}
+
+.match-cartouche-general .team-left .bet-button{
+	float: left;
+}
+
+.match-cartouche-general .team-right .bet-button{
+	float: right;
+}
+
+.match-cartouche-general .match-infos{
+	width: 100%;
+	background:#303030;
+	border-top: 1px solid #393939;
+	position: relative;
+	overflow: hidden;
+}
+
+.match-cartouche-general .match-infos div{
+	width: 100%;
+	top: 0;
+	left:0;
+	position: absolute;
+}
+
+.match-cartouche-general .match-infos .match-infos-left{
+	text-align: left;
+	padding-left: 5px;
+}
+
+.match-cartouche-general .match-infos .match-infos-center{
+	text-align: center;
+}
+
+.match-cartouche-general .match-infos .match-infos-right{
+	text-align: right;
+	width: 99%;
+}
+
+.match-cartouche-general .match-infos{
+	font-size: 16px;
+	height: 24px;
+}
+
+#next-match-cartouche{
+	width: 862px;
+}
+
+#next-match-cartouche .team-container{
+	height: 215px;
+}
+
+#next-match-cartouche .team-container>div{
+	display: inline-block;
+	vertical-align: top;
+	width:430px;
+	height: 215px;
+	background-repeat: no-repeat;
+}
+
+#next-match-cartouche .team-left{background-position: -50% top;}
+#next-match-cartouche .team-right{background-position: 150% top;}
+
+#next-match-cartouche .vs-middle{
+	top: 62px;
+	left: 390px;
+}
+
+#next-match-cartouche .team-container>div>div{top: 34px;}
+#next-match-cartouche .team-left>div{left:20px;}
+#next-match-cartouche .team-right>div{right:20px;}
+
+#next-match-cartouche .team-nameandbutton{
+	padding: 0 14px;
+	width: 250px;
+}
+
+#next-match-cartouche .team-name{
+	font-size: 30px;
+}
+
+#next-match-cartouche .bet-button{
+	padding: 7px 0;
+	border-radius: 5px;
+	width: 120px;
+	font-size: 22px;
+}
+
+#upcomingandfilter{
+	width: 100%;
+}
+
+#upcomingandfilter>div{
+}
+
+#filter{
+	float: left;
+}
+
+#filter #leagues{
+	margin-bottom: 20px;
+	border-bottom: 1px solid #525252;
+	border-left: 1px solid #525252;
+	border-right: 1px solid #525252;
+}
+
+#filter .league{
+	width: 150px;
+	height: 147px;
+	border-top: 1px solid #525252;
+	border-bottom-size:3px;
+	border-bottom-style: solid;
+	cursor: pointer;
+}
+
+#filter .league.selected{background: url(../img/league/selected.png);}
+#filter .league.unselected{background: url(../img/league/unselected.png);}
+#filter .league.selected:hover{background: url(../img/league/selected-hover.png);}
+#filter .league.unselected:hover{background: url(../img/league/unselected-hover.png);}
+
+#upcoming{
+	width: 691px;
+	float: right;
+}
+
+.cartouche-medium{
+	width: 689px;
+}
+
+.cartouche-medium .team-container{
+	height: 100px;
+}
+
+.cartouche-medium .team-container>div{
+	display: inline-block;
+	vertical-align: top;
+	width: 344px;
+	height: 100px;
+}
+
+.cartouche-medium .match-infos{
+	border-bottom-size:3px;
+	border-bottom-style:solid; 
+}
+
+.cartouche-medium .vs-middle{
+	top: 23px;
+	left: 317px;
+}
+
+.cartouche-medium .team-name{
+	font-weight: 400;
+}
+
+.cartouche-medium .team-container>div>div{top: 12px;}
+.cartouche-medium .team-left>div{left:20px;}
+.cartouche-medium .team-right>div{right:20px;}
+
+.cartouche-medium .team-name{
+	font-size: 18px;
+}
+
+.cartouche-medium .bet-button{
+	padding: 4px 0;
+	border-radius: 3px;
+	width: 100px;
+	font-size: 16px;
+}
+
+.cartouche-medium .team-nameandbutton{
+	padding: 0 8px;
+	width: 250px;
+}
+
+.past-match-cartouche .bet-button{
+	display: none;
+}
+
+.past-match-cartouche .team-left{
+	background-position: right center;
+}
+
+.past-match-cartouche .team-right{
+	background-position: left center;
+	background-repeat: repeat-y;
+}
+
+.past-match-cartouche .team-right,.past-match-cartouche .team-left{
+	background-repeat: repeat-y;
+}
+
+.coupe{
+	display: none;
+}
+
+.past-match-cartouche .team-won .coupe{
+	display: block;
+	position: absolute;
+	top: 40px;
+}
+
+.past-match-cartouche .team-left .coupe{
+	left: 270px;
+}
+
+.past-match-cartouche .team-right .coupe{
+	right: 270px;
+}
+
+.past-match-cartouche .team-container .past-score{
+	width: 100%;
+	position: absolute;
+	bottom: -60px;
+	left: 0;
+	font-size:28px;
+	text-align: center;
+	font-weight: 400;
+}
+

@@ -1,0 +1,337 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <title>Le Million</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen">
+  <link href='http://fonts.googleapis.com/css?family=Oswald:300,400' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jqueryui.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body class="league-of-legend matchlist">
+	<div class="large" id="header-large">
+		<div id="header-left" class="regular"><a href="index.php">Paris30.GG</a></div>
+		<div id="header-right">
+			<ul id="header-menu">
+				<li>
+					<div class="header-menu-title"><a href="#">my account <img src="img/fleche-bas-menu.png" alt="v"></a></div>
+					<div class="dropdown" id="dropdownaccount">
+						<div class="element-dropdownaccount"><a href="#"><img src="img/myaccountdropdown/setting.png" alt="Setting">Settings</a></div>
+						<div class="element-dropdownaccount"><a href="#"><img src="img/myaccountdropdown/oldbets.png" alt="oldbet">previous Bets</a></div>
+						<div class="element-dropdownaccount"><a href="#"><img src="img/myaccountdropdown/logout.png" alt="logout">Logout</a></div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="large" id="cover-large">
+		<div class="large-inside" id="cover">
+			<p id="titre-cover" class="regular">
+				league of legend
+			</p>
+			<p id="soustitre-cover" class="light">
+				match list
+			</p>
+		</div>
+	</div>
+	<div class="large" id="content-large">
+		<div class="main-gradient" id="main-gradient-haut"></div>
+		<div class="main-gradient" id="main-gradient-bas"></div>
+		<div class="large-inside" id="content">
+			<div class="main-gradient" id="main-gradient-haut"></div>
+			<div class="main-gradient" id="main-gradient-bas"></div>
+			<img src="img/main-shadow-hg.png" alt="shadow" class="main-shadow" id="main-shadow-hg">
+			<img src="img/main-shadow-hd.png" alt="shadow" class="main-shadow" id="main-shadow-hd">
+			<img src="img/main-shadow-bg.png" alt="shadow" class="main-shadow" id="main-shadow-bg">
+			<img src="img/main-shadow-bd.png" alt="shadow" class="main-shadow" id="main-shadow-bd">
+			<div id="content-left">
+				<div><p class="titre-content regular"><span class="titre-content-color">next</span> match <span class="light horaire-timer">starting in <span class="heure">01</span><span>h</span><span class="minute">01</span>:<span class="seconde">11</span></span></p></div>
+				<div id="next-match-cartouche" class="match-cartouche-general">
+					<div class="team-container">
+						<img src="img/large/vs.png" alt="VS" class="vs-middle">
+						<div class="team-left" style="background-image:url(img/large/fond/dignitas.png);">
+							<div>
+								<img class="transfer-image" src="img/large/team/dignitas.png" alt="Dignitas">
+								<div class="team-nameandbutton">
+									<p class="team-name">Team Dignitas</p>
+									<div class="bet-button clickable regular">Bet <span class="light">(1.1)</span></div>
+									<div class="clear"></div>
+								</div>
+							</div>
+						</div><div class="team-right" style="background-image:url(img/large/fond/clg.png);">
+							<div>
+								<div class="team-nameandbutton">
+									<p class="team-name">CLG</p>
+									<div class="bet-button clickable regular">Bet <span class="light">(1.1)</span></div>
+									<div class="clear"></div>
+								</div>
+								<img class="transfer-image" src="img/large/team/clg.png" alt="CLG">
+							</div>
+						</div>
+					</div>
+					<div class="match-infos">
+						<div class="match-infos-left horaire-timer">Starts in <span class="heure">01</span><span>h</span><span class="minute">01</span>:<span class="seconde">11</span></div>
+						<div class="match-infos-center">best of 1</div>
+						<div class="match-infos-right regular"><a href="matchsheet.html">see the match sheet</a></div>
+					</div>
+				</div>
+				<div><p class="titre-content regular"><span class="titre-content-color">upcoming</span> matches <span class="light">you can filter by selecting league(s) on the left</span></p></div>
+				<div id="upcomingandfilter">
+					<div id="filter">
+						<div id="leagues">
+							<div class="league unselected" style="border-bottom-color:#2161aa;"><img src="img/league/1.png" alt="UA"></div>
+							<div class="league unselected" style="border-bottom-color:#9e2816;"><img src="img/league/2.png" alt="US"></div>
+							<div class="league unselected" style="border-bottom-color:#DDDDDD;"><img src="img/league/3.png" alt="League2"></div>
+						</div>
+					</div>
+					<div id="upcoming">
+						<div class="match-cartouche-general cartouche-medium incoming-match-cartouche">
+							<div class="team-container">
+								<img src="img/medium/vs.png" alt="VS" class="vs-middle">
+								<div class="team-left">
+									<div>
+										<img class="transfer-image" src="img/medium/team/dignitas.png" alt="Dignitas">
+										<div class="team-nameandbutton">
+											<p class="team-name">Team Dignitas</p>
+											<div class="bet-button clickable regular">Bet <span class="light">(1.1)</span></div>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div><div class="team-right">
+									<div>
+										<div class="team-nameandbutton">
+											<p class="team-name">CLG</p>
+											<div class="bet-button clickable regular">Bet <span class="light">(1.9)</span></div>
+											<div class="clear"></div>
+										</div>
+										<img class="transfer-image" src="img/medium/team/clg.png" alt="CLG">
+									</div>
+								</div>
+							</div>
+							<div class="match-infos" style="border-bottom-color:#2161aa;">
+								<div class="match-infos-left horaire-timer">Starts in <span class="heure">00</span><span>h</span><span class="minute">00</span>min</div>
+								<div class="match-infos-center">best of 1</div>
+								<div class="match-infos-right regular"><a href="matchsheet.html">see the match sheet</a></div>
+							</div>
+						</div>
+						<div class="match-cartouche-general cartouche-medium incoming-match-cartouche">
+							<div class="team-container">
+								<img src="img/medium/vs.png" alt="VS" class="vs-middle">
+								<div class="team-left">
+									<div>
+										<img class="transfer-image" src="img/medium/team/clg.png" alt="clg">
+										<div class="team-nameandbutton">
+											<p class="team-name">CLG</p>
+											<div class="bet-button clickable regular">Bet <span class="light">(10.1)</span></div>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div><div class="team-right">
+									<div>
+										<div class="team-nameandbutton">
+											<p class="team-name">Cloud 9</p>
+											<div class="bet-button clickable regular">Bet <span class="light">(1.03)</span></div>
+											<div class="clear"></div>
+										</div>
+										<img class="transfer-image" src="img/medium/team/cloud9.png" alt="cloud9">
+									</div>
+								</div>
+							</div>
+							<div class="match-infos" style="border-bottom-color:#9e2816;">
+								<div class="match-infos-left horaire-timer">Starts in <span class="heure">02</span><span>h</span><span class="minute">08</span>min</div>
+								<div class="match-infos-center">best of 1</div>
+								<div class="match-infos-right regular"><a href="matchsheet.html">see the match sheet</a></div>
+							</div>
+						</div>
+						<div class="match-cartouche-general cartouche-medium incoming-match-cartouche">
+							<div class="team-container">
+								<img src="img/medium/vs.png" alt="VS" class="vs-middle">
+								<div class="team-left">
+									<div>
+										<img class="transfer-image" src="img/medium/team/dignitas.png" alt="Dignitas">
+										<div class="team-nameandbutton">
+											<p class="team-name">Team Dignitas</p>
+											<div class="bet-button clickable regular">Bet <span class="light">(1.1)</span></div>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div><div class="team-right">
+									<div>
+										<div class="team-nameandbutton">
+											<p class="team-name">CLG</p>
+											<div class="bet-button clickable regular">Bet <span class="light">(1.1)</span></div>
+											<div class="clear"></div>
+										</div>
+										<img class="transfer-image" src="img/medium/team/clg.png" alt="CLG">
+									</div>
+								</div>
+							</div>
+							<div class="match-infos" style="border-bottom-color:#2161aa;">
+								<div class="match-infos-left horaire-timer">Starts in <span class="heure">01</span><span>h</span><span class="minute">00</span>min</div>
+								<div class="match-infos-center">best of 1</div>
+								<div class="match-infos-right regular"><a href="matchsheet.html">see the match sheet</a></div>
+							</div>
+						</div>
+						<div><p class="titre-content regular"><span class="titre-content-color">past</span> matches <span class="light">see the result of the recent played games</span></p></div>
+						<div class="match-cartouche-general cartouche-medium past-match-cartouche">
+							<div class="team-container">
+								<img src="img/medium/vs.png" alt="VS" class="vs-middle">
+								<div class="team-left team-won">
+									<img src="img/medium/coupe.png" alt="coupe" class="coupe">
+									<div>
+										<img class="transfer-image" src="img/medium/team/dignitas.png" alt="Dignitas">
+										<div class="team-nameandbutton">
+											<p class="team-name">Team Dignitas</p>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div><div class="team-right">
+									<div>
+										<div class="team-nameandbutton">
+											<p class="team-name">CLG</p>
+											<div class="clear"></div>
+										</div>
+										<img class="transfer-image" src="img/medium/team/clg.png" alt="CLG">
+									</div>
+								</div>
+							</div>
+							<div class="match-infos" style="border-bottom-color:#DDDDDD;">
+								<div class="match-infos-left">played 01h ago</div>
+								<div class="match-infos-center">best of 1</div>
+								<div class="match-infos-right regular"><a href="matchsheet-finished.html">see the match sheet</a></div>
+							</div>
+						</div>
+						<div class="match-cartouche-general cartouche-medium past-match-cartouche">
+							<div class="team-container">
+								<img src="img/medium/vs.png" alt="VS" class="vs-middle">
+								<div class="team-left">
+									<img src="img/medium/coupe.png" alt="coupe" class="coupe">
+									<div>
+										<img class="transfer-image" src="img/medium/team/dignitas.png" alt="Dignitas">
+										<div class="team-nameandbutton">
+											<p class="team-name">Team Dignitas</p>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div><div class="team-right team-won">
+									<img src="img/medium/coupe.png" alt="coupe" class="coupe">
+									<div>
+										<div class="team-nameandbutton">
+											<p class="team-name">CLG</p>
+											<div class="clear"></div>
+										</div>
+										<img class="transfer-image" src="img/medium/team/clg.png" alt="CLG">
+									</div>
+								</div>
+							</div>
+							<div class="match-infos" style="border-bottom-color:#2161aa;">
+								<div class="match-infos-left">played 01h ago</div>
+								<div class="match-infos-center">best of 1</div>
+								<div class="match-infos-right regular"><a href="matchsheet-finished.html">see the match sheet</a></div>
+							</div>
+						</div>
+						<div class="match-cartouche-general cartouche-medium past-match-cartouche">
+							<div class="team-container">
+								<img src="img/medium/vs.png" alt="VS" class="vs-middle">
+								<div class="team-left team-won">
+									<img src="img/medium/coupe.png" alt="coupe" class="coupe">
+									<div>
+										<img class="transfer-image" src="img/medium/team/dignitas.png" alt="Dignitas">
+										<div class="team-nameandbutton">
+											<p class="team-name">Team Dignitas</p>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div><div class="team-right">
+									<div>
+										<div class="team-nameandbutton">
+											<p class="team-name">CLG</p>
+											<div class="clear"></div>
+										</div>
+										<img class="transfer-image" src="img/medium/team/clg.png" alt="CLG">
+									</div>
+								</div>
+							</div>
+							<div class="match-infos" style="border-bottom-color:#9e2816;">
+								<div class="match-infos-left">played 01h ago</div>
+								<div class="match-infos-center">best of 1</div>
+								<div class="match-infos-right regular"><a href="matchsheet-finished.html">see the match sheet</a></div>
+							</div>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div id="content-right">
+				<div id="sidebarbets">
+					<form>
+						<div id="sidebartitre">
+							<div class="regular" id="sidebar-title">My bets</div><div id="bet-number-sidebar-container"><img src="img/betsidebar/ombre-titre.png" alt="shadow" id="sidebar-titre-shadow"><div id="bet-number-sidebar">3</div></div><div class="clear"></div>
+						</div>
+						<div id="sidebar-matchandbet-container">
+							<div class="sidebar-matchandbet">
+								<div class="sidebar-match">
+									<img src="img/betsidebar/team/vulcum.png" alt="vulcum" class="left-team">
+									<img src="img/betsidebar/vs.png" alt="vs" class="vs-middle">
+									<img src="img/betsidebar/team/curse.png" alt="curse" class="right-team">
+								</div>
+								<div class="sidebar-bets">
+									<div class="sidebar-bet">
+										<div class="left"><input class="bet-checkbox" type="checkbox" checked><span class="bet-type">win:</span> <span class="bet-team">Curse</span> <span class="bet-cote">1.1</span></div>
+										<div class="right"><input class="bet-input" type="text" placeholder="0"><input class="croix" type="button"></div>
+										<div class="clear"></div>
+									</div>
+									<div class="sidebar-bet">
+										<div class="left"><input class="bet-checkbox" type="checkbox" checked><span class="bet-type">firstblood:</span> <span class="bet-team">vulcum la team du bohneur</span> <span class="bet-cote">8.3</span></div>
+										<div class="right"><input class="bet-input" type="text" placeholder="0"><input class="croix" type="button"></div>
+										<div class="clear"></div>
+									</div>
+								</div>
+							</div>
+							<div class="sidebar-matchandbet">
+								<div class="sidebar-match">
+									<img src="img/betsidebar/team/coast.png" alt="coast" class="left-team">
+									<img src="img/betsidebar/vs.png" alt="vs" class="vs-middle">
+									<img src="img/betsidebar/team/eg.png" alt="eg" class="right-team">
+								</div>
+								<div class="sidebar-bets">
+									<div class="sidebar-bet">
+										<div class="left"><input class="bet-checkbox" type="checkbox" checked><span class="bet-type">win:</span> <span class="bet-team">evil genius</span> <span class="bet-cote">1.9</span></div>
+										<div class="right"><input class="bet-input" type="text" placeholder="0"><input class="croix" type="button"></div>
+										<div class="clear"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="sidebar-combined">
+							<div class="left regular">Combined bets :</div>
+							<div class="right"><input class="bet-input" type="text" placeholder="0"><div class="container-infos"><img class="infos" src="img/betsidebar/infos.png" alt="?"></div></div>
+							<div class="clear"></div>
+						</div>
+						<div id="sidebar-total">
+							<div class="left">Total bets :</div>
+							<div class="right">$ <span id="totalbet">0</span></div>
+							<div class="clear"></div>
+							<div class="left">Possible gain :</div>
+							<div class="right">$ <span id="possiblegain">0</span></div>
+							<div class="clear"></div>
+						</div>
+						<div id="container-button-sidebar">
+							<div id="button-sidebar">Bet Now</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</form>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div class="large" id="cover-bas-large">
+		<div class="large-inside" id="cover-bas">
+		</div>
+	</div>
+</body>
+</html>

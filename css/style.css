@@ -1,0 +1,83 @@
+@import "header.css";
+@import url("header.css");
+@import "sidebar.css";
+@import url("sidebar.css");
+@import "cover.css";
+@import url("cover.css");
+@import "matchlist.css";
+@import url("matchlist.css");
+@import "matchsheet.css";
+@import url("matchsheet.css");
+@import "content.css";
+@import url("content.css");
+@import "responsive.css";
+@import url("responsive.css");
+@import "specialstyle.css";
+@import url("specialstyle.css");
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	overflow-x: hidden;
+	font-family: 'Oswald',helvetica,arial,sans-serif;
+	text-transform: uppercase;
+	background: #000;
+	color: #FFF;
+	font-weight: 300;
+}
+
+a{
+	text-decoration: none;
+	color:#FFF;
+}
+
+a:hover{
+	text-decoration: underline;
+	color:#FFF;
+}
+
+.clear{
+	clear: both;
+}
+
+.regular{
+	font-weight: 400;
+}
+
+.light{
+	font-weight: 300;
+}
+
+.large{
+	width:100%;
+	position: relative;
+}
+
+.large-inside{
+	width:1200px;
+	margin:0 auto;
+	position: relative;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.bet-button{
+	background:rgba(50,50,50,0.5);
+	border:1px solid #333;
+	color:#777;
+	text-align: center;
+}
+
+.bet-button.clickable{
+	color:#FFF;
+	cursor: pointer;
+}

@@ -1,0 +1,177 @@
+/*###############################################
+--------          CONTENT           -------------
+###############################################*/
+
+#match-sheet{
+	background-color: #121212;
+	width:861px;
+	border:1px solid #393939;
+	position: relative;
+}
+
+#match-sheet #match-info{
+	width: 100%;
+	position:absolute;
+	top: -28px;
+	text-align: right;
+}
+
+#match-sheet #team-container{
+	background: url(../img/matchsheet/background-team-matchsheet.png) repeat-x;
+	min-height: 288px;
+	font-size: 26px;
+	font-weight: 400;
+	position: relative;
+}
+
+#match-sheet #team-container #vs-matchsheet{
+	position: absolute;
+	left: 350px;
+	top:0;
+}
+
+#match-sheet #team-left,#match-sheet #team-right{
+	min-height: 288px;
+	width:420px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	padding-top:15px;
+}
+
+#match-sheet #team-left{
+	float: left;
+}
+
+#match-sheet #team-right{
+	float: right;
+}
+
+#match-sheet .team-link{
+	width: 200px;
+	margin: 0 auto;
+	cursor: pointer;
+	border-radius: 8px;
+}
+
+#match-sheet .team-link:hover{
+	background:rgba(0,0,0,0.3);
+}
+
+#match-sheet .team-name{
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+
+#match-sheet .team-image{
+	margin-top: 10px;
+}
+
+#match-sheet #betandresult-container{
+	margin:20px;
+}
+
+#match-sheet table#bet-results{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#match-sheet table#bet-results thead{
+	font-size: 20px;
+	padding: 5px 0;
+}
+
+#match-sheet table#bet-results thead th{
+	font-weight: 300;
+	font-size: 16px;
+	padding: 5px;
+}
+
+#match-sheet table#bet-results tbody{
+	font-size: 20px;
+}
+
+#match-sheet table#bet-results tbody tr:nth-child(2n){
+	background-color: #282828;
+}
+
+#match-sheet table#bet-results tbody tr:nth-child(2n+1){
+	background-color: #404040;
+}
+
+#match-sheet table#bet-results tbody tr:hover{
+	background-color: #595959;
+}
+
+#match-sheet table#bet-results tbody tr td{
+	padding: 5px 10px;
+}
+
+#match-sheet table#bet-results tbody .cell-left{
+	font-weight: 400;
+}
+
+#match-sheet table#bet-results .cell-left{
+	text-align: left;
+}
+
+#match-sheet table#bet-results .cell-right{
+	text-align: right;
+}
+
+#match-sheet #bet-list .bet-title{
+	border-bottom: 1px solid #fff;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+#match-sheet #bet-list .bets-left{
+	float: left;
+}
+
+#match-sheet #bet-list .bets-right{
+	float: right;
+}
+
+#match-sheet #bet-list .bet-solo{
+	padding: 20px;
+}
+
+#match-sheet #bet-list .bets-leftright .bet-subtitle{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 22px;
+}
+
+#match-sheet #bet-list .bets-left .bet-subtitle,#match-sheet #bet-list .bets-right .bet-button{
+	margin-left:20px;
+}
+
+#match-sheet #bet-list .bets-leftright .bet-button{
+	padding: 6px 0;
+	border-radius: 3px;
+	width: 110px;
+	font-size: 18px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#match-sheet #bet-list .bets-center .bet-solo{
+	padding: 20px;
+	display: inline-block;
+	vertical-align: top;
+	width: 233px;
+	text-align: center;
+}
+
+#match-sheet #bet-list .bets-center .bet-subtitle{
+	font-size: 22px;
+}
+
+#match-sheet #bet-list .bets-center .bet-button{
+	padding: 6px 0;
+	border-radius: 3px;
+	width: 110px;
+	font-size: 18px;
+	margin: 0 auto;
+}

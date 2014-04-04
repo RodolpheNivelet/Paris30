@@ -1,0 +1,241 @@
+/*###############################################
+--------        SIDEBAR             -------------
+###############################################*/
+
+#sidebarbets{
+	margin-top: 67px;
+	width: 280px;
+	border: 1px solid #5d5d5d;
+	box-shadow: 0 0 10px #000;
+	position: relative;
+}
+
+#sidebarbets #sidebartitre{
+	height: 48px;
+	background: #2a2a2a; /* Old browsers */
+	background: -moz-linear-gradient(top,  #2a2a2a 0%, #4c4c4c 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2a2a2a), color-stop(100%,#4c4c4c)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #2a2a2a 0%,#4c4c4c 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #2a2a2a 0%,#4c4c4c 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #2a2a2a 0%,#4c4c4c 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #2a2a2a 0%,#4c4c4c 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a2a2a', endColorstr='#4c4c4c',GradientType=0 ); /* IE6-9 */
+	border-bottom: 1px solid #5d5d5d;
+}
+
+#sidebar-title{
+	float: left;
+	margin: 8px 0 0 12px;
+	text-shadow:0 1px 1px #000;
+	font-size: 22px;
+}
+
+#sidebarbets #sidebar-matchandbet-container{
+	
+}
+
+#sidebarbets .sidebar-matchandbet{
+	display:block;
+	border-bottom:1px solid #474646;
+	border-top:1px solid #1d1d1d;
+	background: #303030;
+	width:100%;
+	padding: 10px 0;
+}
+
+#sidebarbets .sidebar-matchandbet:hover{
+	background: #3d3d3d;
+}
+
+#sidebarbets .sidebar-matchandbet:first-child{
+	border-top:0;
+}
+
+#sidebarbets .sidebar-match{
+	width: 160px;
+	margin: auto;
+	height: 40px;
+	position: relative;
+	border-radius: 6px;
+	padding:6px;
+	cursor: pointer;
+}
+
+#bet-number-sidebar{
+	font-family: arial,sans-serif;
+	font-weight: bold;
+	font-size:22px;
+	text-shadow:0px 1px 1px #333;
+	height: 37px;
+	padding:11px 0 0 0;
+	width: 48px;
+	text-align: center;
+	background: #28b621; /* Old browsers */
+	background: -moz-linear-gradient(top,  #28b621 0%, #3d751f 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#28b621), color-stop(100%,#3d751f)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #28b621 0%,#3d751f 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #28b621 0%,#3d751f 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #28b621 0%,#3d751f 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #28b621 0%,#3d751f 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28b621', endColorstr='#3d751f',GradientType=0 ); /* IE6-9 */
+}
+
+#bet-number-sidebar-container{
+	position: relative;
+	float: right;
+}
+
+#sidebar-titre-shadow{
+	position: absolute;
+	left: -31px;
+	top: 0;
+}
+
+#sidebarbets .sidebar-match:hover{
+	background: #242424;
+}
+
+#sidebarbets .sidebar-match .left-team,#sidebarbets .sidebar-match .right-team{
+	position: absolute;
+	top: 6px;
+}
+
+#sidebarbets .sidebar-match .left-team{left: 10px;}
+#sidebarbets .sidebar-match .right-team{right: 10px;}
+
+#sidebarbets .sidebar-match .vs-middle{
+	position: absolute;
+	top: 16px;
+	left: 46%;
+}
+
+#sidebarbets .sidebar-bets{
+	width: 268px;
+	margin: 6px;
+	font-size: 14px;
+}
+
+#sidebarbets .sidebar-bet{
+	width: 258px;
+	padding: 3px;
+	border-radius: 5px;
+	cursor: default;
+}
+
+#sidebarbets .sidebar-bet:hover{
+	background: #202020;
+}
+
+#sidebarbets .sidebar-bet:hover .croix{
+	background-image: url(../img/betsidebar/supp-linehover.png);
+}
+
+#sidebarbets .sidebar-bet .croix:hover{
+	background-image: url(../img/betsidebar/supp-hover.png);
+}
+
+#sidebarbets .left{
+	max-width: 200px;
+}
+
+#sidebarbets .sidebar-bet .bet-type{
+	font-weight: 400;
+}
+
+#sidebarbets .sidebar-bet .bet-checkbox{
+	margin-right:5px;
+	cursor: pointer;
+}
+
+#sidebarbets .sidebar-bet .bet-cote{
+	border-radius: 2px;
+	background: #FFF;
+	color: #000;
+	padding: 0 4px;
+	font-weight: 400;
+	margin-left:10px;
+}
+
+#sidebarbets .bet-input{
+	width: 30px;
+	margin-right: 6px;
+	padding:1px;
+	text-align: right;
+}
+
+#sidebarbets .sidebar-bet .croix{
+	border: 0;
+	width:12px;
+	height:12px;
+	background-color: transparent;
+	background-image: url(../img/betsidebar/supp.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: relative;
+	right: 0;
+	top: 1px;
+	cursor: pointer;
+}
+
+#sidebarbets #container-button-sidebar{
+	border-top: 1px solid #000000;
+	background-color:#303030;
+	padding: 10px 0;
+}
+
+#sidebarbets #button-sidebar{
+	border-radius: 5px;
+	text-align: center;
+	width: 260px;
+	padding:8px 0;
+	margin: 0 10px;
+	font-weight: 400;
+	border: 1px solid #28b621;
+	cursor: pointer;
+	font-size: 20px;
+	background: #28b621; /* Old browsers */
+	background: -moz-linear-gradient(top,  #28b621 0%, #3d751f 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#28b621), color-stop(100%,#3d751f)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #28b621 0%,#3d751f 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #28b621 0%,#3d751f 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #28b621 0%,#3d751f 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #28b621 0%,#3d751f 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28b621', endColorstr='#3d751f',GradientType=0 ); /* IE6-9 */
+}
+
+#sidebarbets #button-sidebar:hover{
+	border: 1px solid #30d228;
+	background: #30d228; /* Old browsers */
+	background: -moz-linear-gradient(top,  #30d228 0%, #4a8e25 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#30d228), color-stop(100%,#4a8e25)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #30d228 0%,#4a8e25 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #30d228 0%,#4a8e25 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #30d228 0%,#4a8e25 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #30d228 0%,#4a8e25 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30d228', endColorstr='#4a8e25',GradientType=0 ); /* IE6-9 */
+}
+
+#sidebarbets #sidebar-combined{
+	padding: 6px 14px;
+	background: #3f3f3f;
+	border-top: 1px solid #000000;
+	border-bottom:1px solid #5d5d5d;
+}
+
+#sidebarbets #sidebar-combined .container-infos{
+	display: inline-block;
+}
+
+#sidebarbets #sidebar-total{
+	padding: 10px;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+#sidebarbets #sidebar-total .right{
+	color: #777;
+}
+
+.ui-effects-transfer {
+	z-index: 1000;
+}
