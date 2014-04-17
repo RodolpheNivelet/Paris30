@@ -2,7 +2,193 @@
 --------          LANDING           -------------
 ###############################################*/
 
+.landing #content-full{
+	z-index: inherit;
+	padding-bottom:47px;
+}
+
+.catchy-title{
+	font-weight: 400;
+	font-size:50px;
+	text-shadow:0px 0px 2px #26b620;
+}
+
+.catchy-subtitle{
+	font-size:28px;
+}
+
+.catchy-subtitle,.catchy-title{
+	color: #26b51f;
+	text-align: center;
+}
+
 #debut-roche{
-	height: 490px;
-	background:url(../img/landing/fond-roche.jpg) no-repeat center center;
+	min-height: 490px;
+	background:url(../img/landing/fond-roche.jpg) no-repeat top center;
+	text-align: center;
+}
+
+#debut-roche .pseudo-h1{
+	font-size: 60px;
+	padding-top:30px;
+	font-weight: 400;
+}
+
+#debut-roche .pseudo-h2{
+	font-size: 30px;
+}
+
+#debut-roche .pseudo-h2 .green{
+	color: #28b521;
+}
+
+#debut-roche>*{
+	margin:0 auto;
+}
+
+#debut-roche #deux-buttons{
+	padding-top: 30px;
+	width: 500px;
+}
+
+#debut-roche #deux-buttons .button-container{
+	display: inline-block;
+	vertical-align: top;
+	padding:6px;
+	background:#1c1c1c;
+	border: 2px solid #191a19;
+	border-radius: 8px;
+	position: relative;
+}
+
+#debut-roche #deux-buttons .button-container .fissures{
+	position: absolute;
+	top: -25px;
+	opacity: 0;
+}
+
+#debut-roche #deux-buttons .button-container #fissures-left{
+	left: -202px;
+}
+
+#debut-roche #deux-buttons .button-container #fissures-right{
+	right: -202px;
+}
+
+#debut-roche #deux-buttons .button-left{
+	float: left;
+}
+
+#debut-roche #deux-buttons .button-right{
+	float: right;
+}
+
+#debut-roche #deux-buttons .neutral-button{
+	border-radius: 5px;
+	padding: 20px;
+	font-size:20px;
+}
+
+#debut-roche .catchy-title{
+	padding-top: 60px;
+}
+
+#whatisit{
+	padding-top: 20px;
+}
+
+#whatisit .whatissolo{
+	background-repeat: no-repeat;
+	background-position: top center;
+	min-height: 330px;
+	position: relative;
+	text-align: center;
+}
+
+#whatisit .whatissolo .whatis-pastille{
+	background:url(../img/landing/landing-pastille.png) no-repeat center center;
+	padding:35px 0;
+	width: 100px;
+	font-size: 32px;
+	font-weight: 400;
+	position: absolute;
+	top: -57px;
+	left:525px;
+	text-align: center;
+}
+
+#whatisit .whatissolo .pseudo-h3{
+	color: #26b51f;
+	padding-top: 70px;
+	padding-bottom: 10px;
+	font-size: 28px;
+	font-weight: 400;
+	text-shadow:0px 1px 3px #222;
+}
+
+#whatisit .whatissolo .whatis-text{
+	color:#DDD;
+	width: 600px;
+	margin:0 auto;
+}
+
+#whatisit #whatis1{
+	background-image: url(../img/landing/fond-landing-1.jpg);
+}
+
+#whatisit #whatis2{
+	background-image: url(../img/landing/fond-landing-2.jpg);
+}
+
+#whatisit #whatis3{
+	background-image: url(../img/landing/fond-landing-3.jpg);
+}
+
+.transition{
+	background-image:url(../img/landing/fond-transition.jpg);
+	background-position: 0 0;
+}
+
+.transition .transition-content{
+	background:url(../img/landing/fond-transition-content.png);
+	width: 100%;
+	text-align: center;
+	padding: 80px 0 100px 0;
+}
+
+.transition .neutral-button{
+	width: 440px;
+	margin: 0 auto;
+	padding: 10px 0;
+	font-size: 28px;
+	border-radius: 8px;
+}
+
+#howitwork{
+	padding: 50px 0;
+}
+
+.howitwork-solo{
+	padding: 20px 0;
+}
+
+.howitwork-solo-content{
+	width: 620px;
+	padding-top: 40px;
+}
+
+.howitwork-solo-content,.howitwork-solo-img{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.howitwork-solo-content .pseudo-h3{
+	color: #26b51f;
+	padding-bottom: 10px;
+	font-size: 28px;
+	font-weight: 400;
+}
+
+.howitwork-solo-content .howitwork-text{
+	color:#EEE;
 }

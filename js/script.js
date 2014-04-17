@@ -291,4 +291,39 @@ $(document).ready(function() {
 			$self.parent(".horaire-timer").children("span:contains('h')").hide();
 		};
 	});
+
+	//FONCTION QUI ANIME LES FISSURES SUR LA LANDING PAGE
+	function blink(objet){
+		objet
+		.animate({opacity: 0.6},800)
+		.animate({opacity: 1},800,function(){blink(objet)});
+	};
+	$('#debut-roche #deux-buttons .neutral-button').mouseenter(function(){
+		var $self = $(this);
+		var $fissures = $self.parent('.button-container').children('.fissures');
+		$fissures.stop().animate({opacity: 'show'},800,function(){blink($fissures)});
+	});
+	$('#debut-roche #deux-buttons .neutral-button').mouseleave(function(){
+		var $self = $(this);
+		var $fissures = $self.parent('.button-container').children('.fissures');
+		$fissures.stop().animate({opacity: 'hide'},800,function(){$fissures.stop().css('opacity','0');});
+	});
+
+	//FONCTION QUI ANIME LE BLOC TRANSITION DE LA LANDING
+	function transitionmouvement(objet){
+		var positionactuel = objet.css('backgroundPositionX');
+		positionactuel = parseInt(positionactuel);
+		var vitesseconsequente = (positionactuel-238)*(-16);
+		objet.animate({backgroundPositionX: '+238'},vitesseconsequente,'linear',function(){objet.css('backgroundPositionX','0');transitionmouvement(objet)});
+	};
+	$('.transition .neutral-button').mouseenter(function(){
+		var $self = $(this);
+		var $transition = $self.parents('.transition');
+		transitionmouvement($transition);
+	});
+	$('.transition .neutral-button').mouseleave(function(){
+		var $self = $(this);
+		var $transition = $self.parents('.transition');
+		$transition.stop();
+	});
 });

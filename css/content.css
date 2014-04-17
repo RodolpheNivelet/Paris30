@@ -1,5 +1,6 @@
 .main-shadow{
 	position: absolute;
+	z-index: 5;
 }
 
 #main-shadow-hg,#main-shadow-hd{top:87px;}
@@ -35,7 +36,7 @@
 }
 
 #content #content-full{
-	width: 1120px;
+	width: 100%;
 }
 
 #content #content-right{
