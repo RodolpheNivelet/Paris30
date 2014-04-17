@@ -15,7 +15,7 @@
 }
 
 #main-gradient-haut{top:0px; background: url(../img/main-gradient-haut.png);}
-#main-gradient-bas{bottom:0px; background: url(../img/main-gradient-bas.png);}
+#main-gradient-bas{bottom:0px; background: url(../img/main-gradient-bas.png) #232323;}
 
 #content-large{
 	background: #232323;
@@ -32,6 +32,10 @@
 #content #content-left{
 	width: 864px;
 	float:left;
+}
+
+#content #content-full{
+	width: 1120px;
 }
 
 #content #content-right{
