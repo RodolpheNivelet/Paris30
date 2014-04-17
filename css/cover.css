@@ -6,6 +6,15 @@
 	height: 220px;
 	background-position:top center;
 	background-size: cover;
+	position: relative;
+}
+
+#cover-large .blur{
+	height: 220px;
+	width: 100%;
+	-webkit-filter:blur(15px);
+	position: absolute;
+	top: 0;
 }
 
 #titre-cover{
@@ -23,6 +32,56 @@
 #soustitre-cover a{
 	font-size: 20px;
 	text-decoration: underline;
+}
+.circle1, .circle2, .circle3, .circle4, .circle5,
+.circle6, .circle7, .circle8, .circle9, .circle10{
+	border-radius: 50%;
+  width: 100px;
+	height: 100px; 
+  background: rgba(60,180,40,0.20);
+  position:absolute;
+	/* width and height can be anything, as long as they're equal */
+}
+.circle2 {
+  width: 70px;
+	height: 70px; 
+  background: rgba(65,185,45, 0.25);
+}
+.circle3 {
+  width: 50px;
+	height: 50px; 
+  background: rgba(55,175,35,0.80);
+}
+.circle4 {
+  width: 30px;
+	height: 30px; 
+  background: rgba(55,175,35,0.50);
+}
+.circle5 {
+  width: 130px;
+	height: 130px; 
+  background: rgba(50,170,,300.45);
+}
+.circle6 {
+  width: 200px;
+	height: 200px; 
+  background: rgba(50,170,30,0.75);
+}
+.circle7 {
+  width: 80px;
+	height: 80px; 
+}
+.circle8 {
+  width: 180px;
+	height: 180px; 
+}
+.circle9 {
+  width: 100px;
+	height: 100px; 
+}
+.circle10 {
+  width: 500px;
+	height: 500px; 
 }
 
 /*###############################################
