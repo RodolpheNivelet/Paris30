@@ -293,20 +293,23 @@ $(document).ready(function() {
 	});
 
 	//FONCTION QUI ANIME LES FISSURES SUR LA LANDING PAGE
+	$('.lumierefissure-container').hide();
 	function blink(objet){
 		objet
-		.animate({opacity: 0.6},800)
+		.animate({opacity: 0},800)
 		.animate({opacity: 1},800,function(){blink(objet)});
 	};
+	var lumierefissure = $('.lumierefissure')
+	blink(lumierefissure);
 	$('#debut-roche #deux-buttons .neutral-button').mouseenter(function(){
 		var $self = $(this);
-		var $fissures = $self.parent('.button-container').children('.fissures');
-		$fissures.stop().animate({opacity: 'show'},800,function(){blink($fissures)});
+		var $fissures = $self.parent('.button-container').children('.lumierefissure-container');
+		$fissures.stop().fadeIn(800);
 	});
 	$('#debut-roche #deux-buttons .neutral-button').mouseleave(function(){
 		var $self = $(this);
-		var $fissures = $self.parent('.button-container').children('.fissures');
-		$fissures.stop().animate({opacity: 'hide'},800,function(){$fissures.stop().css('opacity','0');});
+		var $fissures = $self.parent('.button-container').children('.lumierefissure-container');
+		$fissures.stop().fadeOut(800);
 	});
 
 	//FONCTION QUI ANIME LE BLOC TRANSITION DE LA LANDING
@@ -405,5 +408,5 @@ $(document).ready(function() {
 	animateDiv('#circle7');
 	animateDiv('#circle8');
 	animateDiv('#circle9');
-	animateDiv('#circle10');
+	// animateDiv('#circle10');
 });

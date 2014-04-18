@@ -61,17 +61,16 @@
 	position: relative;
 }
 
-#debut-roche #deux-buttons .button-container .fissures{
+#debut-roche #deux-buttons .button-container .fissures,#debut-roche #deux-buttons .button-container .lumierefissure-container{
 	position: absolute;
 	top: -25px;
-	opacity: 0;
 }
 
-#debut-roche #deux-buttons .button-container #fissures-left{
+#debut-roche #deux-buttons .button-container #fissures-left,#debut-roche #deux-buttons .button-container #lumierefissure-container-left{
 	left: -202px;
 }
 
-#debut-roche #deux-buttons .button-container #fissures-right{
+#debut-roche #deux-buttons .button-container #fissures-right,#debut-roche #deux-buttons .button-container #lumierefissure-container-right{
 	right: -202px;
 }
 
