@@ -87,8 +87,8 @@ $(document).ready(function() {
 
 	// INITIALISATION ET FONCTION DES DROPDOWN
 	$('.dropdown').hide();
-	$('#header-menu li').hover(function(){
-		$(this).children('.dropdown').fadeToggle(50);
+	$('#header-menu li,#menu-selectgame').hover(function(){
+		$(this).children('.dropdown').fadeToggle(100);
 	});
 
 	// FONCTION ACTIVE AU MOMENT D'UN CLIC SUR UN BOUTON DE PARIS (A TRAVAILLER POUR AJAX)
@@ -327,6 +327,35 @@ $(document).ready(function() {
 		$transition.stop();
 	});
 
+	//FONCTION QUI ANIME LE CHOIX DES JEUX EN HAUT
+	$('.sologame-colored').stop().hide();
+	$('.sologame-title').stop().hide();
+	$('#menu-selectgame .sologame-selectgame').mouseenter(function(){
+		$('.sologame-selectgame').stop().animate({
+			width:"250px",
+		},600);
+		$('.sologame-colored').stop().fadeOut(600);
+		$('.sologame-title').stop().animate({
+			width:"hide",
+		},600);
+		$(this).stop().animate({
+			width:"450px"
+		},600);
+		$(this).children('.sologame-colored').stop().fadeIn(600);
+		$(this).children('.sologame-title').stop().animate({
+			width:"show",
+		},600);
+	});
+	$('#games-selectgame').mouseleave(function(){
+		$('.sologame-colored').stop().fadeOut(600);
+		$('.sologame-title').stop().animate({
+			width:"hide",
+		},600);
+		$('.sologame-selectgame').stop().animate({
+			width:"300px",
+		},600);
+	});
+
 	//FAIRE LES ROND DANS LE HEADER
 
 	function makeNewPosition($container) {
@@ -367,14 +396,14 @@ $(document).ready(function() {
 	    return speed;
 	};
 
-	animateDiv('.circle1');
-	animateDiv('.circle2');
-	animateDiv('.circle3');
-	animateDiv('.circle4');
-	animateDiv('.circle5');
-	animateDiv('.circle6');
-	animateDiv('.circle7');
-	animateDiv('.circle8');
-	animateDiv('.circle9');
-	animateDiv('.circle10');
+	animateDiv('#circle1');
+	animateDiv('#circle2');
+	animateDiv('#circle3');
+	animateDiv('#circle4');
+	animateDiv('#circle5');
+	animateDiv('#circle6');
+	animateDiv('#circle7');
+	animateDiv('#circle8');
+	animateDiv('#circle9');
+	animateDiv('#circle10');
 });
