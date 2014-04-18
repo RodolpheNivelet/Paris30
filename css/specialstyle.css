@@ -2,8 +2,12 @@
 --------           NEUTRAL          -------------
 ###############################################*/
 
-.neutral{
+.neutral #cover-large{
+	background-image:url(../img/cover-neutral.jpg);
+}
 
+.neutral  #cover-bas-large{
+	background-image:url(../img/cover-neutral.jpg);
 }
 
 .neutral-button{
