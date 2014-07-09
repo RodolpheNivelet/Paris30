@@ -1,4 +1,5 @@
-<!DOCTYPE HTML>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <html lang="fr">
 <head>
   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
@@ -12,19 +13,26 @@
 </head>
 <body class="league-of-legend matchsheet">
 	<div class="large" id="header-large">
-		<div id="header-left" class="regular"><a href="index.html">Paris30.GG</a></div>
-		<div id="header-right">
-			<ul id="header-menu">
-				<li>
-					<div class="header-menu-title"><a href="#">my account <img src="img/fleche-bas-menu.png" alt="v"></a></div>
-					<div class="dropdown" id="dropdownaccount">
-						<div class="element-dropdownaccount"><a href="#"><img src="img/myaccountdropdown/setting.png" alt="Setting">Settings</a></div>
-						<div class="element-dropdownaccount"><a href="#"><img src="img/myaccountdropdown/oldbets.png" alt="oldbet">previous Bets</a></div>
-						<div class="element-dropdownaccount"><a href="#"><img src="img/myaccountdropdown/logout.png" alt="logout">Logout</a></div>
-					</div>
-				</li>
-			</ul>
-		</div>
+		<div class="large-inside" id="header">
+			<div id="menu-selectgame">
+				Select a game<br/><img src="img/fleche-bas-games.png" alt="fleche bas">
+				<div class="dropdown" id="games-selectgame">
+					<a class="sologame-selectgame" style="background-image:url(img/game-fond-lol-bw.jpg);"><div class="sologame-colored" style="background-image:url(img/game-fond-lol.jpg);"></div><p class="sologame-title">League of legend</p></a><a class="sologame-selectgame" style="background-image:url(img/game-fond-dota-bw.jpg);"><div class="sologame-colored" style="background-image:url(img/game-fond-dota.jpg);"></div><p class="sologame-title">dota 2</p></a><a class="sologame-selectgame" style="background-image:url(img/game-fond-sc2-bw.jpg);"><div class="sologame-colored" style="background-image:url(img/game-fond-sc2.jpg);"></div><p class="sologame-title">Starcraft 2<br/><span>(comming soon)</span></p></a><a class="sologame-selectgame" style="background-image:url(img/game-fond-cs-bw.jpg);"><div class="sologame-colored" style="background-image:url(img/game-fond-cs.jpg);"></div><p class="sologame-title">CS: GO<br/><span>(comming soon)</span></p></a>
+				</div>
+			</div>
+			<div id="header-left" class="regular"><a href="index.php">Paris30.GG</a></div>
+			<div id="header-right">
+				<ul id="header-menu">
+					<li>
+						<div class="header-menu-title"><a href="#">my account <img src="img/fleche-bas-menu.png" alt="v"></a></div>
+						<div class="dropdown" id="dropdownaccount">
+							<div class="element-dropdownaccount"><a href="#"><img src="img/myaccountdropdown/setting.png" alt="Setting">Settings</a></div>
+							<div class="element-dropdownaccount"><a href="#"><img src="img/myaccountdropdown/oldbets.png" alt="oldbet">previous Bets</a></div>
+							<div class="element-dropdownaccount"><a href="#"><img src="img/myaccountdropdown/logout.png" alt="logout">Logout</a></div>
+						</div>
+					</li>
+				</ul>
+			</div>
 		<div class="clear"></div>
 	</div>
 	<div class="large" id="cover-large">

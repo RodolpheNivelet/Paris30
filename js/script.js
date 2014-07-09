@@ -87,9 +87,18 @@ $(document).ready(function() {
 
 	// INITIALISATION ET FONCTION DES DROPDOWN
 	$('.dropdown').hide();
-	$('#header-menu li,#menu-selectgame').hover(function(){
+	$('#menu-selectgame').mouseenter(function(){
+		var landingYN = $('body').attr("class");
+		if (landingYN != "neutral landing") {$(this).children('.dropdown').fadeIn(100);};
+	});
+	$('#menu-selectgame').mouseleave(function(){
+		var landingYN = $('body').attr("class");
+		if (landingYN != "neutral landing") {$(this).children('.dropdown').fadeOut(100);};
+	});
+	$('#header-menu li').hover(function(){
 		$(this).children('.dropdown').fadeToggle(100);
 	});
+	$('.landing #menu-selectgame .dropdown').show();
 
 	// FONCTION ACTIVE AU MOMENT D'UN CLIC SUR UN BOUTON DE PARIS (A TRAVAILLER POUR AJAX)
 	$('.bet-button').click(function(){
@@ -335,28 +344,28 @@ $(document).ready(function() {
 	$('.sologame-title').stop().hide();
 	$('#menu-selectgame .sologame-selectgame').mouseenter(function(){
 		$('.sologame-selectgame').stop().animate({
-			width:"250px",
-		},600);
-		$('.sologame-colored').stop().fadeOut(600);
+			width:"249px",
+		},400);
+		$('.sologame-colored').stop().fadeOut(400);
 		$('.sologame-title').stop().animate({
 			width:"hide",
-		},600);
+		},400);
 		$(this).stop().animate({
-			width:"450px"
-		},600);
-		$(this).children('.sologame-colored').stop().fadeIn(600);
+			width:"449px"
+		},400);
+		$(this).children('.sologame-colored').stop().fadeIn(400);
 		$(this).children('.sologame-title').stop().animate({
 			width:"show",
-		},600);
+		},400);
 	});
 	$('#games-selectgame').mouseleave(function(){
-		$('.sologame-colored').stop().fadeOut(600);
+		$('.sologame-colored').stop().fadeOut(400);
 		$('.sologame-title').stop().animate({
 			width:"hide",
-		},600);
+		},400);
 		$('.sologame-selectgame').stop().animate({
-			width:"300px",
-		},600);
+			width:"299px",
+		},400);
 	});
 
 	//FAIRE LES ROND DANS LE HEADER

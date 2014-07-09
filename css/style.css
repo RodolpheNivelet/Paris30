@@ -1,21 +1,12 @@
 @import "header.css";
-@import url("header.css");
 @import "sidebar.css";
-@import url("sidebar.css");
 @import "cover.css";
-@import url("cover.css");
 @import "matchlist.css";
-@import url("matchlist.css");
 @import "matchsheet.css";
-@import url("matchsheet.css");
 @import "content.css";
-@import url("content.css");
 @import "landing.css";
-@import url("landing.css");
 @import "responsive.css";
-@import url("responsive.css");
 @import "specialstyle.css";
-@import url("specialstyle.css");
 
 *{
 	margin: 0;
